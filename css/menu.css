@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+
+body{
+	padding: 0;
+	margin: 0;
+	background-color: #fff;
+	min-width: 1024px;
+
+}
+html,h1,h2,h3,h4,h5,h6,a{
+	font-family: "Raleway";
+}
+
+.navbar{
+	background:#323232;
+}
+.nav-link , .navbar-brand{
+	color: #fff;
+	cursor: pointer;
+}
+.navbar-brand{
+	font-size: 30px;
+}
+.navbar-brand:hover{
+	color: #d38d5f;
+}
+.nav-link{
+	margin-right: 1em !important;
+}
+.nav-link:hover{
+	color: #d38d5f;
+
+}
+.navbar-collapse{
+ justify-content: flex-end;
+}
+.navbar-toggler{
+  background:#fff !important;
+}
+
+.nav-link:hover{
+	color: #d38d5f;
+}
+
+.newnavbar{
+	margin-top: 100px;
+	margin-bottom: 100px;
+	color: white;
+	background-color: #6b615b;
+}
+
+.newlink:hover{
+	position: relative;
+	color: #d38d5f;
+}
+
+.dark-grey-text{
+	font-family: "Myriad Pro", Myriad, "Liberation Sans", "Nimbus Sans L", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	text-decoration: none;
+	color: #323232;
+	
+}
+
+.dark-grey-text:hover{
+	text-decoration: none;
+	color: #323232;
+}
+
+.container2{
+	margin-right: auto;
+	margin-left: auto;
+	width: 70%;
+	margin-top: 130px;
+}
