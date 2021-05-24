@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Отзывы</title>
+	 <!-- add bootstrap css and js file -->
+
+      	<link rel="stylesheet" type="text/css" href="css/reviews.css">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">
+  		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"></script>
+  		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
+		<script type="text/javascript" src="js/main.js"></script>
+	
+</head>
+<body>
+  <!-- navbar -->
+
+  <nav class="navbar navbar-expand-lg fixed-top ">
+	   <img src="images/logo.png" alt="" width="70">
+	  <a class="navbar-brand" href="main.html">Эгоист</a>
+	  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+	    <span class="navbar-toggler-icon"></span>
+	  </button>
+
+	  <div class="collapse navbar-collapse " id="navbarSupportedContent">
+	    <ul class="navbar-nav mr-4">
+	      
+		<li class="nav-item">
+	        <a class="nav-link" data-value="about" href="main.html">Главная</a>
+			</li>
+	      <li class="nav-item">
+	        <a class="nav-link" data-value="about" href="menu.html">Меню</a>
+	      </li>
+	      <li class="nav-item">
+	        <a class="nav-link " data-value="portfolio" href="contacts.html">Контакты</a>
+	      </li>
+	      <li class="nav-item">
+	        <a class="nav-link " data-value="blog" href="reviews.html">Отзывы</a>
+	      </li>
+		  </ul>
+	  </div>
+</nav>
+
+	<main>
+	  <div class="container3">
+			<h1 class="text-center text-dark-grey">Оставить отзыв</h1>
+		  <form class="text-center">
+			  <p>Тип обращения<br>
+				  <select>
+				  	<option>Похвала</option>
+					<option>Жалоба</option>
+					<option>Пожелание</option>
+					<option>Комментарий</option>
+				  </select>
+			  </p>
+			  <p>Причина обращения<br>
+				  <select>
+				  	<option>Качество напитков</option>
+				  	<option>Обслуживание</option>
+				  	<option>Общее впечатление</option>
+					<option>Происшествие</option>
+					<option>Сайт</option>
+				  </select>
+			  </p>
+			  <p>Адрес ресторана<br>
+				  <input type="text" placeholder="Адрес" size="30">
+			  </p>
+			  <p>Дата<br>
+			  	  <input type="date" placeholder="дд.мм.гггг">
+			  </p>
+			  <p>Комментарий<br>
+			  <textarea placeholder="Текст" cols="40" rows="8"></textarea>
+			  </p>
+			  <p>Загрузить фотографию<br>
+			  <input type="file">
+			  </p>
+			  <p>Телефон<br>
+			  <input type="tel" placeholder="Мы Вам позвоним" size="30">
+			  </p>
+			  <p>E-mail<br>
+			  <input type="email" placeholder="И напишем" size="30">
+			  </p>
+			  <p>Телефон<br>
+			  <input type="text" placeholder="ФИО" size="30">
+			  </p>
+			  <p><input type="checkbox"> Пожалуйста, свяжитесь со мной</p>
+			  <p><input type="checkbox"> Согласен на обработку персональных данных</p>
+			  <p><input type="submit" value="Отправить"></p>
+		  </form>
+		</div>
+	</main>
+	
+	<footer class="footer mt-auto py-3" style="background:#323232;">
+	<div class="container">
+		<p class="text-center text-white lead">Copyright &copy; <script type="text/javascript">
+			document.write(new Date().getFullYear());
+		  </script> "Эгоист". Все права защищены</p>
+	  
+	</div>
+  </footer>
+
+</body>
+</html>
